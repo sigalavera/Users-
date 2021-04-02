@@ -1,0 +1,110 @@
+body{
+    width: 98vw;
+    height: 98vh;
+    background-image: url("backg.jpg");
+    font-family: 'Kalam', cursive;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+#header{
+   display: flex;
+    justify-content: space-between;
+    background-color: rgba(233, 233, 233);
+    height: 100px;
+}
+#techLogo{
+    height: 100px;
+}
+#indLogo{
+    height: 100px;
+    width: 100px;
+}
+#usersTable,th,td{
+    border: 2px solid black;
+}
+#mainDiv{
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+
+}
+.userCard{
+    display: flex;
+    border: 0.5px solid black;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 10px;
+}
+#userPic{
+    width: 80px;
+}
+#btnDiv{
+    display: flex;
+    justify-content:space-between;
+}
+#userForm{
+    border: 2px solid black;
+    width: 190px;
+    text-align: center;
+    margin-left: 43vw;
+
+}
+#oneCardDiv{
+    display: flex;
+    border: 0.5px solid black;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 10px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(233, 233, 233);
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+#linkedin,#facebook,#git{
+    margin-left: 5px;
+}
